@@ -1,0 +1,7 @@
+﻿  소스.cpp
+c:\users\administrator\documents\visual studio 2015\projects\gyuri\gyuri\소스.cpp(20): warning C4101: 'name' :참조되지 않은 지역 변수입니다.
+c:\users\administrator\documents\visual studio 2015\projects\gyuri\gyuri\소스.cpp(107): warning C4101: 'edit_num' :참조되지 않은 지역 변수입니다.
+c:\users\administrator\documents\visual studio 2015\projects\gyuri\gyuri\소스.cpp(107): warning C4101: 'b3' :참조되지 않은 지역 변수입니다.
+c:\users\administrator\documents\visual studio 2015\projects\gyuri\gyuri\소스.cpp(107): warning C4101: 'edit_string' :참조되지 않은 지역 변수입니다.
+c:\users\administrator\documents\visual studio 2015\projects\gyuri\gyuri\소스.cpp(107): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+  gyuri.vcxproj -> C:\Users\Administrator\documents\visual studio 2015\Projects\gyuri\Debug\gyuri.exe
