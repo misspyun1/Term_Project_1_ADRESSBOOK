@@ -18,10 +18,10 @@
     <ClCompile Include="ADRESSBOOK_linkedlist.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="struct.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="struct.cpp">
+    <ClCompile Include="ADRESSBOOK_main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
