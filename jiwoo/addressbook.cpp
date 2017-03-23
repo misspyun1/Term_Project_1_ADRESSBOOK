@@ -8,7 +8,7 @@ int COUNTING(FILE *file) {
 	char str[50];
 	int count = 0;
 	if (file != NULL) {
-		while (0 != fgets(str, sizeof(str), file)) //¿¬¶ôÃ³°¡ ¸î °³ÀÎÁö ¼¼´Â ÄÚµå
+		while (0 != fgets(str, sizeof(str), file)) //ì—°ë½ì²˜ê°€ ëª‡ ê°œì¸ì§€ ì„¸ëŠ” ì½”ë“œ
 			count++;
 	}
 	fclose(file);
@@ -25,7 +25,7 @@ int main() {
 	CONTACT FAVORITE_LIST[30];
 
 
-	printf("Enter you number¢Ñ ");
+	printf("Enter you numberâ˜ ");
 	scanf_s("%s", my_phone, sizeof(my_phone));
 
 	FILE *contact_list, *message_list, *call_list;
@@ -66,7 +66,7 @@ int main() {
 			contact_num--; del = 0;
 		}
 
-		if (contact_num != 0) { //¿¬¶ôÃ³ÀÇ °³¼ö°¡ 0ÀÌ ¾Æ´Ò ¶§
+		if (contact_num != 0) { //ì—°ë½ì²˜ì˜ ê°œìˆ˜ê°€ 0ì´ ì•„ë‹ ë•Œ
 			fopen_s(&contact_list, "contact_list.txt", "r");
 
 			for (i = 0; i < contact_num; i++)
@@ -104,7 +104,7 @@ int main() {
 		else if (b1 == 2) {
 			PERSON *SEARCH_LIST[30];
 			char search_string[10];
-			cout << "\nSearch ¢Ñ ";
+			cout << "\nSearch â˜ ";
 			cin >> search_string;
 			int cnt = Search(LIST, SEARCH_LIST, &contact_num, search_string);
 			cout << cnt << " result.\n";
