@@ -1,0 +1,4 @@
+→ message 강지우 18:06 20170317 "Hi"
+← message 편규리 17:15 20170516 "Hello"
+← message 김준수 12:15 20160415 "How are you?"
+← message jisu 12:33 20160715 "Ho!"
