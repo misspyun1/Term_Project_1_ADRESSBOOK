@@ -11,7 +11,7 @@ int main() {
 	RECENTS recent[50];
 
 	int contact_num = 0, message_num = 0, call_num = 0, favorite_num = 0;
-	int Default_Menu, Edit_Menu, edit_num;
+	int Default_Menu, Edit_Menu;
 	char name[10], my_number[15], search_string[10], edit_string[30], c;
 
 	fopen_s(&contact_list, "contact_list.txt", "r");
@@ -34,13 +34,13 @@ int main() {
 		fgets(recent[i].contents, sizeof(recent[i].contents), call_list);
 	} fclose(call_list);
 
-	printf("Enter you number¢Ñ ");
+	printf("Enter you numberâ˜ ");
 	scanf_s("%s", my_number, sizeof(my_number));
 
 	sort(recent, recent + call_num);
 
 	while (true) {
-		if (contact_num != 0) { //¿¬¶ôÃ³ÀÇ °³¼ö°¡ 0ÀÌ ¾Æ´Ò ¶§
+		if (contact_num != 0) { //ì—°ë½ì²˜ì˜ ê°œìˆ˜ê°€ 0ì´ ì•„ë‹ ë•Œ
 			fopen_s(&contact_list, "contact_list.txt", "r");
 			for (int i = 0; i < contact_num; i++)
 				fscanf_s(contact_list, "%s %s %s", LIST[i].name, sizeof(LIST[i].name), LIST[i].phone, sizeof(LIST[i].phone), LIST[i].email, sizeof(LIST[i].email));
@@ -64,7 +64,7 @@ int main() {
 		}
 
 		else if (Default_Menu == 2) {
-			printf("\nSearch ¢Ñ ");
+			printf("\nSearch â˜ ");
 			scanf_s("%s", search_string, sizeof(search_string));
 			printf("\n------------------------------------------------------");
 			printf("\nname\t phone\t\temail\n");
